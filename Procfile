@@ -1,1 +1,1 @@
-web: gunicorn propmdashboard:server
+web: gunicorn PRODashboard:server
