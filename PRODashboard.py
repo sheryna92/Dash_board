@@ -141,8 +141,7 @@ colors = ['rgb(68,114,196)', 'rgb(237,125,49)', 'rgb(165,165,165)', 'rgb(255,192
 
 # In[14]:
 
-
-import dash_core_components as dcc
+from dash import dcc
 import dash_html_components as html
 from dash.dependencies import Output, Input, State
 import plotly.graph_objects as go
