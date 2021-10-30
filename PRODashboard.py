@@ -3,9 +3,8 @@
 
 # In[1]:
 
-
-import dash_core_components as dcc
 import dash
+from dash import dcc
 import plotly.express as px
 import pandas as pd
 import numpy as np
