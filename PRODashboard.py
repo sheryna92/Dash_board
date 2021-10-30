@@ -4,12 +4,12 @@
 # In[1]:
 
 
+import dash_core_components as dcc
 import dash
 import plotly.express as px
 import pandas as pd
 import numpy as np
 from datetime import datetime as dt
-import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Output, Input, State
 import plotly.graph_objects as go
