@@ -14,7 +14,7 @@ from datetime import datetime as dt
 # In[2]:
 
 
-df = pd.read_excel(r'C:\Users\GurmeetSingS\OneDrive - Informa plc\Personal\Self-development\Data Science\Python\PRO Project Management Dashboard\PRO_DB_Mock.xlsx',  sheet_name = ['PRO DB'])
+df = pd.read_excel('PRO_DB_Mock.xlsx',  sheet_name = ['PRO DB'])
 
 df = df['PRO DB']
 
