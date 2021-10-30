@@ -9,6 +9,11 @@ import plotly.express as px
 import pandas as pd
 import numpy as np
 from datetime import datetime as dt
+import dash_core_components as dcc
+import dash_html_components as html
+from dash.dependencies import Output, Input, State
+import plotly.graph_objects as go
+
 
 
 # In[2]:
@@ -137,14 +142,6 @@ df1.to_excel(r'C:\Users\GurmeetSingS\OneDrive - Informa plc\Personal\File Name.x
 
 colors = ['rgb(68,114,196)', 'rgb(237,125,49)', 'rgb(165,165,165)', 'rgb(255,192,0)', 'rgb(95,155,213)',
           'rgb(112,173,71)', 'rgb(31,78,120)', 'rgb(112,173,71)' , 'rgb(112,2,71)', 'rgb(0,173,71)']
-
-
-# In[14]:
-
-from dash import dash_core_components
-import dash_html_components as html
-from dash.dependencies import Output, Input, State
-import plotly.graph_objects as go
 
 
 # In[15]:
