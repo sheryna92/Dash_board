@@ -4,7 +4,7 @@
 # In[1]:
 
 import dash
-from dash import dash_core_components as dcc
+import dash_core_components as dcc
 import plotly.express as px
 import pandas as pd
 import numpy as np
